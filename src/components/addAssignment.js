@@ -66,7 +66,7 @@ class addAssignment extends React.Component {
                 <TextField style = {{width: 200}} label="Course ID" name="courseId" 
                 onChange={this.handleChange} value={this.state.courseId} /> 
                 <br></br>
-                <Button variant="outlined" color="primary" style={{margin: 10}}
+                <Button id="Submit" variant="outlined" color="primary" style={{margin: 10}}
                   onClick={this.handleSubmit} >Submit</Button>
 
                 <ToastContainer autoClose={1500} />           
